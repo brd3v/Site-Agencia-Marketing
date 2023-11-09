@@ -4,6 +4,6 @@ import { Hero, SectioInicio } from "./styled";
 export const Inicio = () =>(
     <SectioInicio>
     <Formulario></Formulario>
-    <Hero><img className="img" src="/logo/woman.png" alt="" /></Hero>
+    <Hero><img className="img" src="https://www.pngplay.com/wp-content/uploads/1/Men-In-Suit-PNG.png" alt="" /></Hero>
     </SectioInicio>
 )

@@ -1,8 +1,9 @@
 import styled  from "styled-components";
 
 export const SectioInicio = styled.section`
-  background-image: url('https://cdn.pixabay.com/photo/2015/11/17/18/59/architecture-1048092_1280.jpg');
+  background-image: url('/logo/plano de fundo.png');
     background-size: cover;
+  
     height: 80vh;
     display: flex;
     justify-content: space-between;
@@ -10,9 +11,12 @@ export const SectioInicio = styled.section`
 `
 export const Hero = styled.div`
 width: 90%;
+
 padding: 5rem 0 5rem 8rem;
-height: 400%;
+height: 250%;
   & .img{
     height: 100%;
+
+    
   }
 `
