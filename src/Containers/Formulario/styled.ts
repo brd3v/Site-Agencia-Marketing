@@ -4,7 +4,9 @@ export const Formularios = styled.form`
   
     display: flex;
     flex-direction: column;
-    width: 300px;
+   max-width: 300px;
+   max-height: 600px;
     padding: 5rem;
-    
+    width: 100%;
+
 `

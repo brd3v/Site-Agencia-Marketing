@@ -13,7 +13,8 @@ export const Btn = styled.a`
     align-items: center;
     cursor: pointer;
     transition: all 2s ;
-    max-width: 100%;
+    width: 200px;
+
 
     &:hover{
         background-color: blueviolet;
