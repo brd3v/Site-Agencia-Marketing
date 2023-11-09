@@ -7,3 +7,10 @@ repositório local, no terminal de um
 ```
 npm i
 ```
+
+para rodar o projeto localmente no terminal rode o comando
+```
+npm run dev
+```
+
+Faça as alterações seguindo a metodología de atomic design
