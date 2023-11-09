@@ -1,10 +1,11 @@
+import Header from "./Containers/Header"
 
 
 function App() {
 
   return (
     <>
-    
+    <Header/>
     </>
   )
 }
