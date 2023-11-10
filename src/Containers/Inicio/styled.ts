@@ -8,6 +8,16 @@ export const SectioInicio = styled.section`
     display: flex;
     justify-content: space-between;
     overflow: hidden;
+    @media(max-width:768px){
+        max-width: 100%;
+        width: 100%;
+        background-color: red;
+    }
+
+    @media(max-width:768px){
+      background-image: url('/logo/perfil_mobile.png');
+    }
+  
 `
 export const Hero = styled.div`
 width: 90%;

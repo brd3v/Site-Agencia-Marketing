@@ -8,4 +8,10 @@ resize: none;
 width: 300px;
 padding: 1rem;
 margin-bottom: 1rem;
+
+&:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
 `
