@@ -1,4 +1,3 @@
-import React from "react";
 import { Botao } from "../../components/Botao";
 import Logo from "../../components/Logo";
 import { NavBar } from "../../components/NavBar";

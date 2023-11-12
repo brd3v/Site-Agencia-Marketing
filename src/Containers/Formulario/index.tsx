@@ -4,7 +4,7 @@ import { Input } from "../../components/Input";
 import { Formularios } from "./styled";
 import { Text } from '../../components/Text';
 import { useState } from "react";
-import React from "react";
+
 
 export const Formulario = () => {
   const [nome, setNome] = useState<string>('');

@@ -1,4 +1,3 @@
-import React from "react";
 import { Btn } from "./styled";
 import { TbArrowBigRightLine } from "react-icons/tb";
 type Props = {
