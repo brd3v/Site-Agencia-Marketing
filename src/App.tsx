@@ -1,6 +1,6 @@
+import React from "react"
 import Header from "./Containers/Header"
 import { Inicio } from "./Containers/Inicio"
-import { Sobre } from "./Containers/Sobre"
 import { Top } from "./styled"
 
 
@@ -12,7 +12,6 @@ function App() {
     <Header/>
     </Top>
     <Inicio></Inicio>
-    <Sobre></Sobre>
     </>
   )
 }

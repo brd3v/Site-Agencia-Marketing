@@ -1,3 +1,4 @@
+import React from "react";
 import { Botao } from "../../components/Botao";
 import Logo from "../../components/Logo";
 import { NavBar } from "../../components/NavBar";
@@ -13,8 +14,8 @@ const Header = () => (
     <NavBar href='www.google.com'>Clientes</NavBar>
     <NavBar href='www.google.com'>Blog</NavBar>
     <NavBar href='www.google.com'>Contato</NavBar>
-   
-    <Botao /> </NavI>
+
+    <Botao onClick={() => console.log('clicou no botao do whatsapp')}><a href="https://wa.link/u1zc5j">Orçamento</a></Botao> </NavI>
     </HeaderConteiner>
 )
 
