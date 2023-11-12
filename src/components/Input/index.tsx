@@ -1,7 +1,7 @@
 import { Inputs } from "./styled";
 type Props = {
     placeholder:string
-    onChange : () => string
+    onChange : () => string | any
     type ? : string
     value : string
     maxLength? : number | string
